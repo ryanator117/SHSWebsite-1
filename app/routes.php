@@ -15,3 +15,14 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
+// filler routes for now
+Route::get('/academics/accreditation', function()
+{
+	return View::make('index');
+});
+
+// Filler routes for now
+Route::get('/academics/', function()
+{
+	return View::make('index');
+});
