@@ -1,0 +1,66 @@
+section {
+	min-height:500px;
+	width:100%;
+	background:url(../images/transparent.0.8.png);
+	background:rgba(0, 0, 0, 0.8);
+}
+section {
+	width:968px;
+}
+section #faculty {
+	width:968px;
+	color:#4AC9FF;
+	padding-top:8px;
+}
+section #faculty th {
+	cursor:pointer;
+	color:white;
+}
+section #faculty th:nth-child(3) {
+	cursor:text;
+}
+section #faculty td {
+	text-align:center;
+}
+section #faculty a {
+	color:white;
+	color:inherit;
+	text-decoration:underline;
+}
+section #faculty .staffAssistant {
+	color:#4A6FFF;
+}
+section #faculty .administrator {
+	color:#FF3C00;
+}
+section table, section table tr, section table tr td {
+	border-spacing:0;
+	margin:0;
+	padding:0;
+}
+section #announce {
+	width:500px;
+}
+section h3 {
+	text-align:center;
+	padding:16px;
+	margin:0;
+	border-bottom:1px solid white;
+}
+section #announce ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+section #announce ul li {
+	display:block;
+	padding:6px 12px;
+	font-size:15px;
+}
+section #announce ul li:nth-child(2n) {
+	background-color:rgba(100, 100, 100, 0.5);
+}
+section #info {
+	width:500px;
+	float:right;
+}
