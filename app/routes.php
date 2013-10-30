@@ -24,19 +24,19 @@ Route::get('/faculty', function()
 {
 	return View::make('faculty');
 });
+
 Route::get('/lunch_menu'), function()
 {
 	return View::make('lunchmenu');
 });
 
-// filler routes for now
-// Route::get('/academics/accreditation', function()
-// {
-// 	return View::make('index');
-// });
+Route::get('/counselors'), function()
+{
+	return View::make('counselors.index');
+});
 
-// // Filler routes for now
-// Route::get('/academics/', function()
-// {
-// 	return View::make('index');
-// });
+// vv Handle requests for pages of specific counselors
+Route::get('/counselors/{name}', function($name)
+{
+	return View::make('counselors.'.$name);
+})->where('name', '[A-Za-z]+');
