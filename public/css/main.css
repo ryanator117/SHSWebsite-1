@@ -40,6 +40,7 @@ body {
 }
 #nav ul li {
 	height:30px;
+	border-bottom:1px solid #444;
 }
 #nav ul li ul {
 	display:none;
@@ -60,7 +61,7 @@ body {
 	font-size:18px;
 	text-decoration:none;
 	display:block;
-	padding:4px 16px;
+	padding:5px 16px;
 }
 #nav ul li a:hover {
 	background-color:#2D2D2D;

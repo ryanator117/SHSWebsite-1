@@ -15,14 +15,28 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
-// filler routes for now
-Route::get('/academics/accreditation', function()
+Route::get('/index', function()
 {
 	return View::make('index');
 });
 
-// Filler routes for now
-Route::get('/academics/', function()
+Route::get('/faculty', function()
 {
-	return View::make('index');
+	return View::make('faculty');
 });
+Route::get('/lunch_menu'), function()
+{
+	return View::make('lunchmenu');
+});
+
+// filler routes for now
+// Route::get('/academics/accreditation', function()
+// {
+// 	return View::make('index');
+// });
+
+// // Filler routes for now
+// Route::get('/academics/', function()
+// {
+// 	return View::make('index');
+// });
