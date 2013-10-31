@@ -131,7 +131,6 @@
 </div>
 </div>
 <div id="footer">
-
 </div>
 </div>
 <script src="js/jquery.js"></script>
