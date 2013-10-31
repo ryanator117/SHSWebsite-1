@@ -90,12 +90,31 @@
 		</li>
 		<li><a href="#">Winter</a>
 			<ul>
-			<li><a href="#">Boys Baskeyball</a></li>
+			<li><a href="#">Boys Basketball</a></li>
+			<li><a href="#">Girls Basketball</a></li>
+			<li><a href="#">Wrestling</a></li>
+			<li><a href="#">Gymnastics</a></li>
+			<li><a href="#">Boys Swimming</a></li>
+			<li><a href="#">Cheer</a></li>
+			<li><a href="#">Color Guard</a></li>
+			<li><a href="#">Bowling</a></li>
 			</ul>
 		</li>
 		<li><a href="#">Spring</a>
 			<ul>
-				<li><a href="#">Football</a></li>
+				<li><a href="#">Baseball</a></li>
+				<li><a href="#">Softball</a></li>
+				<li><a href="#">Track Girls</a></li>
+				<li><a href="#">Track Boys</a></li>
+				<li><a href="#">Boys Soccer</a></li>
+				<li><a href="#">Girls Tennis</a></li>
+				<li><a href="#">Girls Golf</a></li>
+			</ul>
+		</li>
+		</ul>
+		<li><a href="#">Activities</a>
+			<ul>
+				<li><a href="#">Band</a></li>
 			</ul>
 		</li>
 		</ul>
