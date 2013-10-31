@@ -25,12 +25,12 @@ Route::get('/faculty', function()
 	return View::make('faculty');
 });
 
-Route::get('/lunch_menu'), function()
+Route::get('/lunch_menu', function()
 {
 	return View::make('lunchmenu');
 });
 
-Route::get('/counselors'), function()
+Route::get('/counselors', function()
 {
 	return View::make('counselors.index');
 });
