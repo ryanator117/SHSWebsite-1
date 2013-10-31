@@ -13,7 +13,6 @@
 </nav>
 </div>
 <div id="main">
-<<<<<<< Updated upstream
 <div id="nav"><ul>
 	<li><a href="#">Academics</a>
 		<ul>
@@ -124,11 +123,9 @@
 		</ul>
 	</li>
 </ul></div>
-=======
 <div id="nav">
 @yield('nav')
 </div>
->>>>>>> Stashed changes
 <div id="content">
 @yield('content')
 </div>
