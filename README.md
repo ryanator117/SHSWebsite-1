@@ -1,4 +1,4 @@
 SHSWebsite
 ==========
 
-The current site sucks giant hairy horse cahones. We're fixing it. Whoop whoop.
+This is the Github page for the Skyviews new site.As can see, its 95% html.
