@@ -117,7 +117,6 @@
 				<li><a href="#">Band</a></li>
 			</ul>
 		</li>
-		</ul>
 	</li>
 	<li><a href="#">Student Services</a>
 		<ul>
