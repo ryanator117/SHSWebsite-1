@@ -1,5 +1,151 @@
 [
     {
+        "name": "way/laravel-test-helpers",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/JeffreyWay/Laravel-Test-Helpers.git",
+            "reference": "7fcec7999d02c457cfc82c8d6dfa894470129c11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/JeffreyWay/Laravel-Test-Helpers/zipball/7fcec7999d02c457cfc82c8d6dfa894470129c11",
+            "reference": "7fcec7999d02c457cfc82c8d6dfa894470129c11",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "illuminate/support": "4.0.x",
+            "mockery/mockery": "*"
+        },
+        "time": "2013-09-13 16:53:25",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Way\\Tests": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Jeffrey Way",
+                "email": "jeffrey@jeffrey-way.com",
+                "homepage": "http://jeffrye-way.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Easier testing in Laravel."
+    },
+    {
+        "name": "mustache/mustache",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bobthecow/mustache.php.git",
+            "reference": "14bc3b4f6a4770b535fc433bfd0435471ed386c6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/14bc3b4f6a4770b535fc433bfd0435471ed386c6",
+            "reference": "14bc3b4f6a4770b535fc433bfd0435471ed386c6",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2013-08-13 04:49:23",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Mustache": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Justin Hileman",
+                "email": "justin@justinhileman.info",
+                "homepage": "http://justinhileman.com"
+            }
+        ],
+        "description": "A Mustache implementation in PHP.",
+        "homepage": "https://github.com/bobthecow/mustache.php",
+        "keywords": [
+            "mustache",
+            "templating"
+        ]
+    },
+    {
+        "name": "way/generators",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/JeffreyWay/Laravel-4-Generators.git",
+            "reference": "bdcc57b1219bed3ad17d69fa20f55d98484f15f6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/JeffreyWay/Laravel-4-Generators/zipball/bdcc57b1219bed3ad17d69fa20f55d98484f15f6",
+            "reference": "bdcc57b1219bed3ad17d69fa20f55d98484f15f6",
+            "shasum": ""
+        },
+        "require": {
+            "mustache/mustache": "dev-master",
+            "php": ">=5.3.0",
+            "way/laravel-test-helpers": "dev-master"
+        },
+        "require-dev": {
+            "illuminate/console": "~4",
+            "illuminate/filesystem": "~4",
+            "illuminate/support": "~4",
+            "mockery/mockery": "dev-master"
+        },
+        "time": "2013-09-18 23:38:54",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Way\\Generators": "src/"
+            },
+            "classmap": [
+                "src/Way/Generators/Generators"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Jeffrey Way",
+                "email": "jeffrey@jeffrey-way.com",
+                "homepage": "http://jeffrye-way.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Laravel 4 Generators",
+        "keywords": [
+            "artisan",
+            "generators",
+            "laravel"
+        ]
+    },
+    {
         "name": "filp/whoops",
         "version": "1.0.7",
         "version_normalized": "1.0.7.0",
@@ -868,18 +1014,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Process.git",
-            "reference": "c1c6c1f668b1255c5936e6596d3c5e50a3d8ed13"
+            "reference": "82898108f79040314a7b3ba430a72c32c7f61d14"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Process/zipball/c1c6c1f668b1255c5936e6596d3c5e50a3d8ed13",
-            "reference": "c1c6c1f668b1255c5936e6596d3c5e50a3d8ed13",
+            "url": "https://api.github.com/repos/symfony/Process/zipball/82898108f79040314a7b3ba430a72c32c7f61d14",
+            "reference": "82898108f79040314a7b3ba430a72c32c7f61d14",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2013-10-26 07:52:48",
+        "time": "2013-10-30 08:30:20",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -917,12 +1063,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Debug.git",
-            "reference": "7f671456b9617d0a54f04597ae1c1ed3a1e858fd"
+            "reference": "085d4fd990493a47c1d542a98fac5475326e237f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Debug/zipball/7f671456b9617d0a54f04597ae1c1ed3a1e858fd",
-            "reference": "7f671456b9617d0a54f04597ae1c1ed3a1e858fd",
+            "url": "https://api.github.com/repos/symfony/Debug/zipball/085d4fd990493a47c1d542a98fac5475326e237f",
+            "reference": "085d4fd990493a47c1d542a98fac5475326e237f",
             "shasum": ""
         },
         "require": {
@@ -937,7 +1083,7 @@
             "symfony/http-foundation": "",
             "symfony/http-kernel": ""
         },
-        "time": "2013-09-19 09:47:13",
+        "time": "2013-10-30 08:30:20",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -975,18 +1121,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpFoundation.git",
-            "reference": "8f383fa5e4b66b66ba2d09e502e8bf73bdd04901"
+            "reference": "1bee3412d9ff603a9ed1cce305c0becbd735c307"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/8f383fa5e4b66b66ba2d09e502e8bf73bdd04901",
-            "reference": "8f383fa5e4b66b66ba2d09e502e8bf73bdd04901",
+            "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/1bee3412d9ff603a9ed1cce305c0becbd735c307",
+            "reference": "1bee3412d9ff603a9ed1cce305c0becbd735c307",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2013-10-17 11:48:01",
+        "time": "2013-10-30 08:28:22",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1083,12 +1229,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpKernel.git",
-            "reference": "dce9c5096d8f1460af901e3899f88e9d3c1cec1b"
+            "reference": "9795c9f67c72a96be0535f6987a94a07e5ff2432"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/dce9c5096d8f1460af901e3899f88e9d3c1cec1b",
-            "reference": "dce9c5096d8f1460af901e3899f88e9d3c1cec1b",
+            "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/9795c9f67c72a96be0535f6987a94a07e5ff2432",
+            "reference": "9795c9f67c72a96be0535f6987a94a07e5ff2432",
             "shasum": ""
         },
         "require": {
@@ -1118,7 +1264,7 @@
             "symfony/dependency-injection": "",
             "symfony/finder": ""
         },
-        "time": "2013-10-28 14:46:04",
+        "time": "2013-10-30 08:30:20",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1205,12 +1351,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/DomCrawler.git",
-            "reference": "f3c321861994f5a1882b4045ea1f8759be47601a"
+            "reference": "4dc2c596b28884892da24729d9b32d01d89c1a59"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/f3c321861994f5a1882b4045ea1f8759be47601a",
-            "reference": "f3c321861994f5a1882b4045ea1f8759be47601a",
+            "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/4dc2c596b28884892da24729d9b32d01d89c1a59",
+            "reference": "4dc2c596b28884892da24729d9b32d01d89c1a59",
             "shasum": ""
         },
         "require": {
@@ -1222,7 +1368,7 @@
         "suggest": {
             "symfony/css-selector": ""
         },
-        "time": "2013-09-25 09:22:53",
+        "time": "2013-10-30 08:30:20",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1260,18 +1406,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/CssSelector.git",
-            "reference": "4e01c74f19ea049773fa3ee9fb2bb5bf5e14f7eb"
+            "reference": "8df20c54ffa650df860a3e42dbcd1fbd25a24977"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/CssSelector/zipball/4e01c74f19ea049773fa3ee9fb2bb5bf5e14f7eb",
-            "reference": "4e01c74f19ea049773fa3ee9fb2bb5bf5e14f7eb",
+            "url": "https://api.github.com/repos/symfony/CssSelector/zipball/8df20c54ffa650df860a3e42dbcd1fbd25a24977",
+            "reference": "8df20c54ffa650df860a3e42dbcd1fbd25a24977",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2013-09-19 09:45:20",
+        "time": "2013-10-30 08:30:20",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1761,12 +1907,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/laravel/framework.git",
-            "reference": "71d8acb7a4b7c52c8f7d0d7b1839399cd4abddd7"
+            "reference": "7492229a5607ef9528952c5fb6a0bd659310f2e2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laravel/framework/zipball/71d8acb7a4b7c52c8f7d0d7b1839399cd4abddd7",
-            "reference": "71d8acb7a4b7c52c8f7d0d7b1839399cd4abddd7",
+            "url": "https://api.github.com/repos/laravel/framework/zipball/7492229a5607ef9528952c5fb6a0bd659310f2e2",
+            "reference": "7492229a5607ef9528952c5fb6a0bd659310f2e2",
             "shasum": ""
         },
         "require": {
@@ -1830,7 +1976,7 @@
             "pda/pheanstalk": "2.1.*",
             "phpunit/phpunit": "3.7.*"
         },
-        "time": "2013-10-29 01:42:04",
+        "time": "2013-10-31 04:45:26",
         "type": "library",
         "extra": {
             "branch-alias": {
