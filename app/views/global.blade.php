@@ -75,11 +75,21 @@
 		<li><a href="#">Fall</a>
 			<ul>
 			<li><a href="#">Football</a></li>
+			<li><a href="#">Volleyball</a></li>
+			<li><a href="#">Cross Country Boys</a></li>
+			<li><a href="#">Cross Country Girls</a></li>
+			<li><a href="#">Girls Soccer</a></li>
+			<li><a href="#">Boys Tennis</a></li>
+			<li><a href="#">Boys Tennis</a></li>
+			<li><a href="#">Boys Golf</a></li>
+			<li><a href="#">Girls Swimming</a></li>
+			<li><a href="#">Cheer</a></li>
+			<li><a href="#">Color Guard</a></li>
 			</ul>
 		</li>
 		<li><a href="#">Winter</a>
 			<ul>
-			<li><a href="#">Football</a></li>
+			<li><a href="#">Boys Baskeyball</a></li>
 			</ul>
 		</li>
 		<li><a href="#">Spring</a>
