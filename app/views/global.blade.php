@@ -123,9 +123,6 @@
 		</ul>
 	</li>
 </ul></div>
-<div id="nav">
-@yield('nav')
-</div>
 <div id="content">
 @yield('content')
 </div>
